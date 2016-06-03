@@ -1,0 +1,19 @@
+{
+  "name": "battle-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/link00000000/battle-bot.git"
+  },
+  "author": "link00000000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/link00000000/battle-bot/issues"
+  },
+  "homepage": "https://github.com/link00000000/battle-bot#readme"
+}
