@@ -1,9 +1,3 @@
-//Clears console when program starts
-var lines = process.stdout.getWindowSize()[1];
-for(var i = 0; i < lines; i++) {
-    console.log('\r\n');
-}
-
 var fs = require('fs');
 
 var request = require('request');
