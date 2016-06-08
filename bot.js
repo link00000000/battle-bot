@@ -374,7 +374,7 @@ function log(msg, text) {
     if(date.getMinutes() < 10) {
       mins = "0".toString() + date.getMinutes().toString();
     } else { mins = date.getMinutes(); }
-    if(date.getSeconds()) {
+    if(date.getSeconds() < 10) {
       secs = "0".toString() + date.getSeconds().toString();
     } else { secs = date.getSeconds(); }
   timestamp = '[' + hrs +':' + mins + ':' + secs + ']';
