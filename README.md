@@ -1,12 +1,14 @@
 # Battle Bot
 ####Battlefield 4 Battlelog Discord Bot
 
-Logs saved to /logs by date
+Logs saved to /logs by date.
 
-Anything saved to the logs will be shown in the console also
+Anything saved to the logs will be shown in the console also.
 
 ## Installation
-Simply download and extract the .zip file and run "Battle Bot.exe"
+Simply download and extract the .zip file and run "Battle Bot.exe".
+
+Alternatively, "start.bat" can be run instead.
 
 ## Commands List
   • !bf4 <server name> | Gets server information.
