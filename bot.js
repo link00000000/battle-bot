@@ -8,6 +8,8 @@ var db = new JsonDB('servers', true, true);
 var Discord = require('discord.js');
 var bot = new Discord.Client();
 
+var GIT_REPO = 'https://github.com/link00000000/battle-bot';
+
 bot.on('message', function(msg) {
   if(msg.content.substring(0, 4) === '!bf4') {
 
@@ -179,6 +181,12 @@ bot.on('message', function(msg) {
                         '  • !bf4help | Shows this list.';
         bot.reply(msg, commands);
         log(msg, 'Commands List was requested');
+
+
+        // Github Repo
+    } else if(msg.content.substring(0, 10) === '!bf4github' || msg.content.substring(0, 7) === '!bf4git') {
+        bot.reply(msg, '\nGithub: ' + GIT_REPO);
+        log(msg, 'Requested link to github repo.');
 
       // Default unknown
     } else {
