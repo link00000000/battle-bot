@@ -8,6 +8,8 @@ var db = new JsonDB('servers', true, true);
 var Discord = require('discord.js');
 var bot = new Discord.Client();
 
+var auth = JSON.parse(require('./auth.json'));
+
 var GIT_REPO = 'https://github.com/link00000000/battle-bot';
 
 bot.on('message', function(msg) {
@@ -199,7 +201,7 @@ bot.on('message', function(msg) {
   }
 });
 
-bot.login("bf4dbot@gmail.com", "FATPEOPLE");
+bot.login(auth.email, auth.password);
 
 function mapName(orig) {
   switch (orig.toLowerCase()) {
