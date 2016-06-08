@@ -5,25 +5,29 @@ Logs saved to /logs by date
 
 Anything saved to the logs will be shown in the console also
 
-Run minimized.bat to start minimized to taskbar
-
 ## Installation
-Simply download and extract the .zip file and run "Battle Bot"
+Simply download and extract the .zip file and run "Battle Bot.exe"
 
 ## Commands List
   • !bf4 <server name> | Gets server information.
-  
+
   • !bf4list | Lists the servers currently in the database.
-  
+
   • !bf4add <server name> <server url> | Adds a server to the database.
-  
+
   • !bf4remove <server name> | Removes a server from the database.
-  
+
   • !bf4delete <server name> | Removes a server from the database.
-  
+
   • !bf4rename <server name> <new name> | Renames a server in the database.
-  
+
+  • !bf4rename <server name> <new name> | Renames a server in the database.
+
   • !bf4help | Shows this list.
+
+  • !bf4git | Links to the github repository.
+
+  • !bf4github | Links to the github repository.
 
 ## Credits
 link00000000

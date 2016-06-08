@@ -178,7 +178,9 @@ bot.on('message', function(msg) {
                         '  • !bf4remove <server name> | Removes a server from the database.\n' +
                         '  • !bf4delete <server name> | Removes a server from the database.\n' +
                         '  • !bf4rename <server name> <new name> | Renames a server in the database.\n' +
-                        '  • !bf4help | Shows this list.';
+                        '  • !bf4help | Shows this list.\n' +
+                        '  • !bf4git | Links to the github repository.' +
+                        '  • !bf4github | Links to the github repository.';
         bot.reply(msg, commands);
         log(msg, 'Commands List was requested');
 
