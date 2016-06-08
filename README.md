@@ -6,9 +6,18 @@ Logs saved to /logs by date.
 Anything saved to the logs will be shown in the console also.
 
 ## Installation
-Simply download and extract the .zip file and run "Battle Bot.exe".
 
-Alternatively, "start.bat" can be run instead.
+1. Download and extract he .zip file.
+2. Make a new discord account.
+3. Log into the discord account on either the discord web application or the downloaded application.
+4. Connect to all servers that you would like the bot to be accessed on.
+5. Log out of the bot account.
+6. Edit "auth.json" to include the email and password to the discord account and save the file.
+7. Run "Battle Bot.exe". - Alternatively, "start.bat" can be run instead.
+
+###Troubleshooting
+
+If the program closes immediately after launch, make sure that the username and password in "auth.json" are correct.
 
 ## Commands List
   • !bf4 <server name> | Gets server information.
