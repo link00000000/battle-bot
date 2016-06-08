@@ -1,19 +1,18 @@
 {
-  "name": "battle-bot",
+  "name": "jquery",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/link00000000/battle-bot.git"
-  },
-  "author": "link00000000",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/link00000000/battle-bot/issues"
-  },
-  "homepage": "https://github.com/link00000000/battle-bot#readme"
+  "dependencies": {
+    "discord.js": "^7.0.1",
+    "jQuery": "^1.7.4",
+    "jsdom": "^9.2.1",
+    "node-json-db": "^0.7.2",
+    "request": "^2.72.0"
+  }
 }
