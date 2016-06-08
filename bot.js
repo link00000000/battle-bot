@@ -174,7 +174,8 @@ bot.on('message', function(msg) {
                         '  • !bf4list | Lists the servers currently in the database.\n' +
                         '  • !bf4add <server name> <server url> | Adds a server to the database.\n' +
                         '  • !bf4remove <server name> | Removes a server from the database.\n' +
-                        '  • !bf4delete <server name> | Removes a server from the database.\n'
+                        '  • !bf4delete <server name> | Removes a server from the database.\n' +
+                        '  • !bf4rename <server name> <new name> | Renames a server in the database.\n' +
                         '  • !bf4help | Shows this list.';
         bot.reply(msg, commands);
         log(msg, 'Commands List was requested');
