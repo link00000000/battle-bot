@@ -85,3 +85,5 @@ $RECYCLE.BIN/
 *.lnk
 logo.png
 servers.json
+*.exe
+servers.json
