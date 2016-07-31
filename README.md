@@ -1,5 +1,8 @@
-# Battle Bot
-####Battlefield 4 Battlelog Discord Bot
+<p align="center">
+  <img src="http://i.imgur.com/ts9J5XU.png">
+</p>
+
+#### Battlefield 4 Battlelog Discord Bot
 
 Logs saved to /logs by date.
 
@@ -7,15 +10,44 @@ Anything saved to the logs will be shown in the console also.
 
 ## Installation
 
-1. Download and extract he .zip file.
+#### Using a username and password
+
+1. Download and extract the .zip file.
 2. Make a new discord account.
 3. Log into the discord account on either the discord web application or the downloaded application.
 4. Connect to all servers that you would like the bot to be accessed on.
 5. Log out of the bot account.
-6. Edit "auth.json" to include the email and password to the discord account and save the file.
+6. Edit "auth.json" to include the email and password to the discord account and save the file. Leave the token blank.
 7. Run "Battle Bot.exe". - Alternatively, "start.bat" can be run instead.
 
-###Troubleshooting
+Example
+```json
+{
+  "token": "",
+  "email": "DISCORD_BOT_EMAIL",
+  "password": "DISCORD_BOT_PASSWORD"
+}
+```
+
+#### Using a discord bot token
+
+1. Download and extract the .zip file.
+2. Go to https://discordapp.com/developers/applications/me and make a new application (You may have to login/create a discord account). Give the bot an 'app name' and click 'Create Application'.
+3. Click on 'Create a Bot User' and accept.
+4. Reveal the token for the app bot user.
+5. Edit "auth.json" to include the token and save the file. Leave the email and password blank.
+6. Run "Battle Bot.exe". - Alternatively, "start.bat" can be run instead.
+
+Example
+```json
+{
+  "token": "DISCORD_BOT_TOKEN",
+  "email": "",
+  "password": ""
+}
+```
+
+### Troubleshooting
 
 If the program closes immediately after launch, make sure that the username and password in "auth.json" are correct.
 

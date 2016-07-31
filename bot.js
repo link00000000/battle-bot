@@ -201,7 +201,11 @@ bot.on('message', function(msg) {
   }
 });
 
-bot.login(auth.email, auth.password);
+if(auth.token) {
+  bot.loginWithToken(auth.token);
+} else {
+  bot.login(auth.email, auth.password);
+}
 
 process.on('exit', function() {
   bot.logout();
